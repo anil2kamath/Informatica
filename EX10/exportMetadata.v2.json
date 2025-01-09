@@ -1,0 +1,145 @@
+{
+  "name" : "MappingTaskExport",
+  "sourceOrgId" : "kV0r8AzTdmAdukbhwYVNMj",
+  "sourceOrgName" : "Acme",
+  "exportedObjects" : [ {
+    "objectGuid" : "0JHRCuYg9JGlJYc1HOmuSp",
+    "objectName" : "CompanyEmployeeHierarchy_task",
+    "objectType" : "MTT",
+    "path" : "/Explore/Default",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "012SA30Z00000000000F"
+      },
+      "objectRefs" : [ "fJP3rj1xf6hfJSvdqSFJAv", "4eu6pr012mmc68TIhNYnIN", "5MVsSDUSYygddTB4c1OKor", "0q00cIjDzFzlh8ChfDjhWL" ],
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : null,
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    }
+  }, {
+    "objectGuid" : "4eu6pr012mmc68TIhNYnIN",
+    "objectName" : "Informatica Cloud Hosted Agent",
+    "objectType" : "AgentGroup",
+    "path" : "/SYS",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "025000000000002"
+      },
+      "objectRefs" : [ ],
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : "",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    }
+  }, {
+    "objectGuid" : "fJP3rj1xf6hfJSvdqSFJAv",
+    "objectName" : "CompanyEmployeeHierarchy_map",
+    "objectType" : "DTEMPLATE",
+    "path" : "/Explore/Default",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "012SA31700000000000F"
+      },
+      "objectRefs" : [ "5MVsSDUSYygddTB4c1OKor", "0q00cIjDzFzlh8ChfDjhWL" ],
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    }
+  }, {
+    "objectGuid" : "9LAjA5s3re1hfCSQg6hi8p",
+    "objectName" : "Default",
+    "objectType" : "Project",
+    "path" : "/Explore",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : null,
+      "objectRefs" : [ ],
+      "contextAttributes" : [ {
+        "name" : "IS_DEF_LOC",
+        "value" : "true"
+      } ],
+      "additionalInfo" : {
+        "description" : "Auto-generated Default Project",
+        "contentType" : null,
+        "documentState" : "COMPLETE"
+      }
+    }
+  }, {
+    "objectGuid" : "5MVsSDUSYygddTB4c1OKor",
+    "objectName" : "awstest",
+    "objectType" : "Connection",
+    "path" : "/SYS",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "012SA30B000000000002"
+      },
+      "objectRefs" : [ "4eu6pr012mmc68TIhNYnIN" ],
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : null,
+        "contentType" : "JSON",
+        "documentState" : "COMPLETE"
+      }
+    }
+  }, {
+    "objectGuid" : "0q00cIjDzFzlh8ChfDjhWL",
+    "objectName" : "CompanySchema",
+    "objectType" : "HSCHEMA",
+    "path" : "/Explore/Default",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "012SA336000000000002"
+      },
+      "objectRefs" : [ ],
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    }
+  } ]
+}

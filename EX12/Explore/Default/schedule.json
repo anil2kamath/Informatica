@@ -1,0 +1,1 @@
+[{"@type":"schedule","id":"@2","name":"EmployeeDTLUpsert","startTime":"2025-01-08T02:00:00.000Z","startTimeUTC":"2025-01-08T07:00:00.000Z","interval":"Minutely","frequency":5,"mon":true,"tue":true,"wed":true,"thu":true,"fri":true,"sat":true,"sun":true,"weekDay":false,"dayOfMonth":0,"timeZoneId":"America/Los_Angeles"}]
